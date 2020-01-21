@@ -1,2 +1,2 @@
-﻿search
-searchWithClick
+﻿jenkinsApp.UnitTest1.search
+jenkinsApp.UnitTest1.searchWithClick
