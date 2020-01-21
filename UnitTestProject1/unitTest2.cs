@@ -24,14 +24,14 @@ namespace jenkinsApp
 
         [TestCase("zapato")]
         [TestCase("junit")]
-        public void search(String text)
+        public void searchGoogle(String text)
         {
             driver.FindElement(By.Name("q")).SendKeys(text);
         }
 
         [TestCase("zapato")]
         [TestCase("junit")]
-        public void searchWithClick(String text)
+        public void searchGoogleWithClick(String text)
         {
             driver.FindElement(By.Name("q")).SendKeys(text);
             //driver.FindElement(By.Name("btnK")).Click();
