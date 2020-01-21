@@ -1,2 +1,2 @@
-﻿searchGoogleWithClick
-searchGoogle
+﻿jenkinsApp.UnitTest2.searchGoogleWithClick
+jenkinsApp.UnitTest2.searchGoogle

@@ -5,6 +5,7 @@ using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace jenkinsApp
 {
@@ -27,6 +28,7 @@ namespace jenkinsApp
         public void searchGoogle(String text)
         {
             driver.FindElement(By.Name("q")).SendKeys(text);
+            Thread.Sleep(20000);
         }
 
         [TestCase("zapato")]
@@ -34,7 +36,7 @@ namespace jenkinsApp
         public void searchGoogleWithClick(String text)
         {
             driver.FindElement(By.Name("q")).SendKeys(text);
-            //driver.FindElement(By.Name("btnK")).Click();
+            Thread.Sleep(20000);
         }
 
         [TearDown]
